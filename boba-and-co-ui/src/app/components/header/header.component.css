@@ -1,0 +1,61 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: var(--brown1);
+  box-shadow: 10px 5px 5px red !important;
+  z-index: 10;
+}
+
+  
+  .header-title {
+    font-size: 42px; /* Adjust as needed */
+    color: white;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .header-sub-container {
+    display: flex;
+    color: white;
+    font-size: 24px; /* Adjust as needed */
+  }
+  
+  /* Common styles for the menu items */
+  .header-menu, .header-about, .header-share-icon {
+    position: relative;
+    margin-left: 30px; /* Spacing between the items */
+    cursor: pointer; /* Change cursor to pointer for clickable items */
+    padding-bottom: 5px; /* Space for the underline */
+  }
+  
+  /* Pseudo-element for the animated underline */
+  .header-menu::after,
+  .header-about::after,
+  .header-share-icon::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    margin-top: 10px;
+    height: 4px; /* Thickness of the underline */
+    background-color: var(--green1); /* Color of the underline */
+    width: 0; /* Start with no width */
+    transition: width 0.3s ease; /* Animate the width change */
+  }
+  
+  /* Expand underline on hover */
+  .header-menu:hover::after,
+  .header-about:hover::after,
+  .header-share-icon:hover::after {
+    width: 35%; /* Full width of the text */
+  }
+  
+  /* Optional: Change text color on hover */
+  .header-about:hover, .header-share-icon:hover, .header-menu:hover {
+    color: var(--green1);
+    text-decoration: none; /* Remove default underline if present */
+  }
+  

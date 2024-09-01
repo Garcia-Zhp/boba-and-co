@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Montserrat, "Montserrat", sans-serif; }
+
+:root {
+    --brown1: #423b36; 
+    --brown2: #765742;
+    --brown3: #815F47; 
+    --brown4: #8B664C; 
+    --brown5: #956E53; 
+    --green1: #6effb7; 
+    --green2: #c7fde2;
+    --white1: #F5FFFA; 
+    --white2: #dbe6e0; 
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Use bold weight for headings */
+}
+  
+
+
+.font-xs {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* Regular weight for paragraphs */
+    font-size: 0.75rem;
+    color: var(--white1);
+}
+  
+.font-sm {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* Regular weight for paragraphs */
+    font-size: 1rem;
+    color: var(--white1);
+
+}
+  
+.font-md {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* Regular weight for paragraphs */
+    font-size: 1.25rem;
+    color: var(--white1);
+
+}
+
+.font-lg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* Regular weight for paragraphs */
+    font-size: 1.5rem;
+    color: var(--white1);
+
+}
+  
+.font-xlg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; /* Regular weight for paragraphs */
+    font-size: 2rem;
+    letter-spacing: 0.5px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line height */
+    color: var(--white1);
+
+}
+  

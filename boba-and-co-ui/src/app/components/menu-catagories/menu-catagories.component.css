@@ -1,0 +1,36 @@
+.categories-container {
+    display: flex;
+    height: 400px;
+    justify-content: space-around; /* Space out the items evenly */
+    align-items: center; /* Center the items vertically */
+    padding: 40px 0; /* Add padding to the container */
+    background-color: var(--white1); /* Optional: light background */
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column; /* Stack the circle and label vertically */
+    align-items: center; /* Center them horizontally */
+    text-align: center;
+}
+
+.category-circle {
+    width: 250px; /* Size of the circle */
+    height: 250px; /* Size of the circle */
+    background-color: #e0e0e0; /* Light gray background for the circle */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the icon inside */
+    margin-bottom: 10px; /* Space between the circle and the label */
+    background-color: var(--green2);
+}
+
+.category-circle img {
+    width: 100px; /* Adjust the size of the icon inside the circle */
+    height: auto;
+}
+
+.category-label {
+    color: #333; /* Dark text color */
+}
