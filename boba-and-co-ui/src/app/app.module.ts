@@ -8,7 +8,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { MenuCatagoriesComponent } from './components/menu-catagories/menu-catagories.component';
-import { MenuCategoryComponent } from './components/menu-catagories/menu-category/menu-category.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FeaturesComponent } from './components/features/features.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenuCategoryComponent } from './components/menu-catagories/menu-categor
     HeaderComponent,
     JumbotronComponent,
     MenuCatagoriesComponent,
-    MenuCategoryComponent
+    FooterComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,

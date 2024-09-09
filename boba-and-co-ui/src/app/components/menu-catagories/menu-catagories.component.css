@@ -3,7 +3,7 @@
     height: 400px;
     justify-content: space-around; /* Space out the items evenly */
     align-items: center; /* Center the items vertically */
-    padding: 40px 0; /* Add padding to the container */
+    padding: 0px 0; /* Add padding to the container */
     background-color: var(--white1); /* Optional: light background */
 }
 
@@ -33,4 +33,21 @@
 
 .category-label {
     color: #333; /* Dark text color */
+}
+
+.menu-title {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    background-color: var(--white1); /* Optional: light background */
+}
+
+.menu-title h1 {
+    margin: 0;
+    color: #333; /* Dark text color */
+    font-size: 32px; /* Adjust as needed */
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
