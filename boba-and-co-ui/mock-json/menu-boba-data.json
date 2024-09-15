@@ -1,64 +1,95 @@
 {
-    "/menu/boba": {
-      "get": {
-        "options": [
+    "/menu/latte": {
+        "get": [
+            {
+                "dairy": [
+                    {
+                        "id": 1,
+                        "display_name": "Regular Milk",
+                        "value": "regular_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 2,
+                        "display_name": "Almond Milk",
+                        "value": "almond_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 3,
+                        "display_name": "Oatmilk",
+                        "value": "oatmilk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 4,
+                        "display_name": "Coconut Milk",
+                        "value": "coconut_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    }
+                ]
+            },
           {
-            "id": 1,
-            "name": "Matcha Bubble Tea",
-            "value": "matcha_bubble_tea",
-            "price": 7.5,
-            "sweetness": 2,
-            "milk": ["Almond", "Oat", "Regular"],
-            "description": "Matcha bubble tea is a refreshing beverage that combines the earthy, slightly bitter taste of matcha green tea with sweet, chewy tapioca pearls.",
-            "hasAllergens": false,
-            "hasDecaf": false,
-            "temperature" : ["Hot, Cold, Warm"],
-            "toppings": ["Tapioca Pearls", "Passionfruit Jelly", "Coconut Jelly", "Popping Boba", "None"],
-            "img": "images/boba-imgs/brown-sugar-tea.jpg"
+            "ice": [
+                                  {
+                        "id": 1,
+                        "display_name": "Less",
+                        "value": "less_ice",
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Regular",
+                        "value": "regular_ice",
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Xtra",
+                        "value": "xtra_ice",
+                    }
+            ]
           },
           {
-            "id": 2,
-            "name": "Milk Tea",
-            "value": "milk_tea",
-            "price": 7.5,
-            "sweetness": 3,
-            "milk": ["Almond", "Oat", "Regular"],
-            "description": "The term milk tea is used for both hot and cold drinks that can be combined with various kinds of milks and a variety of spices.",
-            "hasAllergens": true,
-            "hasDecaf": false,
-            "temperature" : ["Hot, Cold, Warm"],
-            "toppings": ["Tapioca Pearls", "Passionfruit Jelly", "Coconut Jelly", "Popping Boba", "None"],
-            "img": "images/boba-imgs/milk-tea.jpg"
+            "Size": [
+                                  {
+                        "id": 1,
+                        "display_name": "Small",
+                        "value": "size_sm",
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Medium",
+                        "value": "size_md",
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Large",
+                        "value": "size_lg",
+                    }
+            ]
           },
-          {
-            "id": 3,
-            "name": "Green Tea",
-            "value": "green_tea",
-            "price": 5,
-            "sweetness": 1,
-            "milk": ["Almond", "Oat", "Regular"],
-            "description": "Green tea is a light, refreshing drink with a subtly earthy flavor and numerous health benefits.",
-            "hasAllergens": true,
-            "hasDecaf": false,
-            "temperature" : ["Hot"],
-            "toppings": ["None"],
-            "img": "images/boba-imgs/1green-tea.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Brown Sugar Milk Tea",
-            "value": "brown_sugar_milk_tea",
-            "price": 9.5,
-            "sweetness": 5,
-            "milk": ["Almond", "Oat", "Regular"],
-            "description": "Popular brown sugar milk has none, and true to its name it's a blend of milk, bubbles (aka tapioca pearls), and a boiled brown sugar syrup.",
-            "hasAllergens": true,
-            "hasDecaf": false,
-            "temperature" : ["Hot"],
-            "toppings": ["Tapioca Pearls","Coconut Jelly","None"],
-            "img": "images/boba-imgs/brown-sugar-tea.jpg"
+                    {
+            "Flavor": [
+                                  {
+                        "id": 1,
+                        "display_name": "Small",
+                        "value": "size_sm",
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Medium",
+                        "value": "size_md",
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Large",
+                        "value": "size_lg",
+                    }
+            ]
           }
         ]
-      }
     }
-  }
+}
