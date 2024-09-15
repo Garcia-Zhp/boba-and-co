@@ -1,6 +1,12 @@
 {
     "/menu/latte": {
         "get": [
+            { "menuHeader": {
+                "title": "Latte",
+                "description" : "Latte description",
+                "img": "/path/regular_milk.img"
+              }
+            },
             {
                 "dairy": [
                     {
@@ -35,7 +41,7 @@
             },
           {
             "ice": [
-                                  {
+                    {              
                         "id": 1,
                         "display_name": "Less",
                         "value": "less_ice"
