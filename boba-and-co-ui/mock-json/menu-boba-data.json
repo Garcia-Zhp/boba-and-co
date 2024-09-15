@@ -38,17 +38,17 @@
                                   {
                         "id": 1,
                         "display_name": "Less",
-                        "value": "less_ice",
+                        "value": "less_ice"
                     },
                                                 {
                         "id": 2,
                         "display_name": "Regular",
-                        "value": "regular_ice",
+                        "value": "regular_ice"
                     },
                                                 {
                         "id": 3,
                         "display_name": "Xtra",
-                        "value": "xtra_ice",
+                        "value": "xtra_ice"
                     }
             ]
           },
@@ -57,17 +57,17 @@
                                   {
                         "id": 1,
                         "display_name": "Small",
-                        "value": "size_sm",
+                        "value": "size_sm"
                     },
                                                 {
                         "id": 2,
                         "display_name": "Medium",
-                        "value": "size_md",
+                        "value": "size_md"
                     },
                                                 {
                         "id": 3,
                         "display_name": "Large",
-                        "value": "size_lg",
+                        "value": "size_lg"
                     }
             ]
           },
@@ -76,17 +76,17 @@
                                   {
                         "id": 1,
                         "display_name": "Small",
-                        "value": "size_sm",
+                        "value": "size_sm"
                     },
                                                 {
                         "id": 2,
                         "display_name": "Medium",
-                        "value": "size_md",
+                        "value": "size_md"
                     },
                                                 {
                         "id": 3,
                         "display_name": "Large",
-                        "value": "size_lg",
+                        "value": "size_lg"
                     }
             ]
           }
