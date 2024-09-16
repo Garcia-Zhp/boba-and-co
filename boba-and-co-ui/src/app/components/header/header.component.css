@@ -1,11 +1,14 @@
+header {
+  padding: 30px;
+  background-color: var(--brown1);
+}
+
 .header-container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
-  background-color: var(--brown1);
-  box-shadow: 10px 5px 5px red !important;
-  z-index: 10;
 }
 
   

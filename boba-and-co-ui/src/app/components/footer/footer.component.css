@@ -1,0 +1,37 @@
+footer {
+    width: 100%; /* footer covers entire width of page */
+    background-color: var(--brown6);
+    color: white;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3em;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 2em; /* half the size of header logo */
+    color: white;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-divider {
+    display: block;
+    height: 100px; /* height of span line */
+    border-right: 1px solid white; /* thickness, line type, and color */  
+}
+
+.footer-directory ul {
+    margin: 0; /* removes the margin on top and bottom of the ul */
+}
+
+.footer-directory li {
+    list-style: none;
+    margin-bottom: 1em; /* adds margin underneath each li */
+}

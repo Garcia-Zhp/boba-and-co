@@ -6,7 +6,7 @@
     justify-content: center; /* Center children vertically */
     text-align: center; /* Center text inside the container */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
-    background-color: var(--white1);
+    margin-bottom: 4em; /* pushes margin down roughly 60px */
 }
 
 .featured-panel {
@@ -15,13 +15,25 @@
     width: 700px;
     height: 350px;
     border-radius: 12px;
-    
+    background-image: url('/assets/images/featured/boba-tea-featured.jpg');
+    background-size: cover;
+    position: relative;
 }
 
-.features-container h1 {
+.featured-panel p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px rgb(20, 20, 20);
+    position: absolute; /* positions p text relative to featured panel */
+    bottom: 10px;
+    left: 30px;
+}
+
+.features-container h2 {
     margin: 0;
     color: #333; /* Dark text color */
-    font-size: 32px; /* Adjust as needed */
+    font-size: 2em; /* Adjust as needed */
     font-family: "Yeseva One", serif;
     font-weight: 400;
     font-style: normal;
