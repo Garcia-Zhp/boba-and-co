@@ -18,20 +18,28 @@ header {
     font-family: "Yeseva One", serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
   }
   
   .header-sub-container {
     display: flex;
     color: white;
     font-size: 24px; /* Adjust as needed */
+    list-style: none;
   }
   
   /* Common styles for the menu items */
-  .header-menu, .header-about, .header-share-icon {
+  .header-sub-container li {
     position: relative;
     margin-left: 30px; /* Spacing between the items */
     cursor: pointer; /* Change cursor to pointer for clickable items */
     padding-bottom: 5px; /* Space for the underline */
+    
+  }
+
+  .header-sub-container a {
+    text-decoration: none; /* removes underline */
+    color: white; /* makes text white and not blue or purple*/
   }
   
   /* Pseudo-element for the animated underline */

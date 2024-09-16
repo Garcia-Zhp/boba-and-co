@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { IceComponentComponent } from './components/menu/menu_components/ice-component/ice-component.component';
 import { SizeComponentComponent } from './components/menu/menu_components/size-component/size-component.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SizeComponentComponent } from './components/menu/menu_components/size-c
     FooterComponent,
     FeaturesComponent,
     IceComponentComponent,
-    SizeComponentComponent
+    SizeComponentComponent,
+    AboutUsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
