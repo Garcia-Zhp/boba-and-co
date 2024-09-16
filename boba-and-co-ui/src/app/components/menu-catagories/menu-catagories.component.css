@@ -1,6 +1,8 @@
 .categories-container {
     display: flex;
     height: 400px;
+    max-width: 1000px; /* sets a max width */
+    margin: 0 auto; /* centers container to page */
     justify-content: space-around; /* Space out the items evenly */
     align-items: center; /* Center the items vertically */
     padding: 0px 0; /* Add padding to the container */
@@ -15,24 +17,27 @@
 }
 
 .category-circle {
-    width: 250px; /* Size of the circle */
-    height: 250px; /* Size of the circle */
+    width: 200px; /* Size of the circle */
+    height: 200px; /* Size of the circle */
     background-color: #e0e0e0; /* Light gray background for the circle */
     border-radius: 50%; /* Make it a circle */
     display: flex;
     justify-content: center;
     align-items: center; /* Center the icon inside */
-    margin-bottom: 10px; /* Space between the circle and the label */
+    margin-bottom: 1.5em; /* Space between the circle and the label */
     background-color: var(--green2);
+    cursor: pointer;
 }
 
 .category-circle img {
-    width: 100px; /* Adjust the size of the icon inside the circle */
+    width: 75px; /* Adjust the size of the icon inside the circle */
     height: auto;
 }
 
 .category-label {
     color: #333; /* Dark text color */
+    font-size: 1.5em; /* 20px size text */
+    font-weight: 700; /* bold text */
 }
 
 .menu-title {
