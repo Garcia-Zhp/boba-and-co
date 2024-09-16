@@ -63,4 +63,21 @@ h1, h2, h3 {
     color: var(--white1);
 
 }
+
+button {
+    padding: .75em 1.5em;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    background-color: var(--green2);
+    color: var(--green1);
+    border: 3px solid var(--green1);
+    cursor: pointer;
+}
   
+button:hover {
+    background-color: var(--green1);
+    color: white;
+}
