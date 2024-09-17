@@ -1,0 +1,101 @@
+{
+    "/menu/latte": {
+        "get": [
+            { "menuHeader": {
+                "title": "Latte",
+                "description" : "Your choice of freshly brewed tea or milk served in a delightful cup with chewy tapioca pearls, fruity jellies, or popping boba, and topped with your favorite flavors, sweet syrups, or creamy foam.",
+                "img": "assets/images/latte-imgs/latte.png"
+              }
+            },
+            {
+                "dairy": [
+                    {
+                        "id": 1,
+                        "display_name": "Regular Milk",
+                        "value": "regular_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 2,
+                        "display_name": "Almond Milk",
+                        "value": "almond_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 3,
+                        "display_name": "Oatmilk",
+                        "value": "oatmilk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    },
+                    {
+                        "id": 4,
+                        "display_name": "Coconut Milk",
+                        "value": "coconut_milk",
+                        "calories": 100,
+                        "img": "/path/regular_milk.img"
+                    }
+                ]
+            },
+          {
+            "ice": [
+                    {              
+                        "id": 1,
+                        "display_name": "Less",
+                        "value": "less_ice"
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Regular",
+                        "value": "regular_ice"
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Xtra",
+                        "value": "xtra_ice"
+                    }
+            ]
+          },
+          {
+            "Size": [
+                                  {
+                        "id": 1,
+                        "display_name": "Small",
+                        "value": "size_sm"
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Medium",
+                        "value": "size_md"
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Large",
+                        "value": "size_lg"
+                    }
+            ]
+          },
+                    {
+            "Flavor": [
+                                  {
+                        "id": 1,
+                        "display_name": "Caramel",
+                        "value": "caramel_flavor"
+                    },
+                                                {
+                        "id": 2,
+                        "display_name": "Vanilla",
+                        "value": "vanilla_flavor"
+                    },
+                                                {
+                        "id": 3,
+                        "display_name": "Mocha",
+                        "value": "mocha_flavor"
+                    }
+            ]
+          }
+        ]
+    }
+}

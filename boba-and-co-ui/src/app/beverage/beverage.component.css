@@ -1,0 +1,62 @@
+.menu-header {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid var(--brown5);
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 2em 1em;
+    margin-top: 5em;
+}
+
+.menu-img-container img { /* adjustable max-widht of img and pushes text to the right */
+    max-width: 250px;
+    margin-right: 3em;
+}
+
+.menu-text {
+    /* border: 1px solid red; */
+    max-width: 500px; /* constraints text box so not too wide */
+    margin: auto 0; /* aligns text vertically */
+}
+
+.menu-text h1 {
+    text-transform: uppercase; /* menu text in all uppercase */
+}
+
+.menu-text span {
+    font-weight: 900;
+    font-size: 2em;
+    display: block; /* makes the span tag a block element allowing margin */
+    margin-top: .25em; /* pushes span a bit away from top line  */
+}
+
+.menu-title-line {
+    display: block;
+    width: 35%;
+    border-bottom: 8px solid var(--green1); /* thickness and color of line */
+    margin: 1em 0 .5em 0; /* 1em margin on top, and .5em margin on bottom, 0 on sides */
+}
+
+.menu-text p { /* makes text easier to read by adjusting color, line height, and margin bottom */
+    color: var(--brown6);
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.options-container {
+    margin: 1em 0;
+}
+
+.options-container h3 {
+    font-weight: 700;
+}
+
+.options-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.options-container li {
+    margin: 0 .5em;
+}

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http' // Import HttpClientModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { IceComponentComponent } from './components/menu/menu_components/ice-com
 import { SizeComponentComponent } from './components/menu/menu_components/size-component/size-component.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
+import { BeverageComponent } from './beverage/beverage.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { HomeComponent } from './home/home.component';
     IceComponentComponent,
     SizeComponentComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    BeverageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
