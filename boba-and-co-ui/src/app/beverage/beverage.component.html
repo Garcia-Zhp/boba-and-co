@@ -1,0 +1,50 @@
+<div class="menu-header container">
+    <div class="menu-img-container">
+        <img [src]="menuHeader?.img"  alt="image of a latte"/>
+    </div>
+    <div class="menu-text">
+        <h1>build your 
+            <br>
+            <span>{{ menuHeader?.title }}</span>
+        </h1>
+        <span class="menu-title-line"></span>
+        <p class="font-sm">{{ menuHeader?.description }}</p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Ice Options -->
+    <div class="options-container">
+        <h3>Ice</h3>
+        <ul>
+          <li *ngFor="let option of iceOptions">
+            <button>{{ option.display_name }}</button>
+          </li>
+        </ul>
+    </div>
+ 
+
+    
+    <!-- Size Options -->
+    <div class="options-container">
+        <h3>Size</h3>
+        <ul>
+          <li *ngFor="let option of sizeOptions">
+            <button>{{ option.display_name }}</button>
+          </li>
+        </ul>
+    </div>
+
+
+    
+    <!-- Flavor Options -->
+    <div class="options-container">
+        <h3>Size</h3>
+        <ul>
+          <li *ngFor="let option of flavorOptions">
+            <button>{{ option.display_name }}</button>
+          </li>
+        </ul>
+    </div>
+</div>
+<app-footer></app-footer>
