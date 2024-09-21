@@ -1,1 +1,11 @@
-<p>size-component works!</p>
+<h1>{{label}}</h1>
+
+<table>
+    <tr>
+        <td *ngFor="let col of getColumnsArray()">
+            <ng-container *ngFor="let item of menuSection.items">
+                <button *ngIf="item.col === col">{{ item.display_name }}</button>
+            </ng-container>
+        </td>
+    </tr>
+</table>

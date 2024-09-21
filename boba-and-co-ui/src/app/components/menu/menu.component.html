@@ -1,18 +1,39 @@
-<div *ngIf="menu">
+<div class="menu-container" *ngIf="menu">
     <h2>{{ menu.title }}</h2>
     <p>{{ menu.description }}</p>
     <img [src]="menu.img" alt="{{ menu.title }}">
   
     <div *ngFor="let option of menu.menuOptions | keyvalue">
-      <h3>{{ option.key }}</h3>
-      <div *ngFor="let item of option.value.items">
-        <div>
-          <h4>{{ item.display_name }}</h4>
-          <img [src]="item.img" alt="{{ item.display_name }}">
-          <p *ngIf="item.calories">Calories: {{ item.calories }}</p>
-          <p *ngIf="item.price">Price: {{ item.price }}</p>
+        <div *ngIf = "option.key=='ice'">
+            <app-ice-component [menuSection]="option.value"></app-ice-component>
         </div>
-      </div>
+        <div *ngIf = "option.key=='size'">
+            <app-size-component [menuSection]="option.value"></app-size-component>
+        </div>
+        <div *ngIf = "option.key=='dairy'">
+
+        </div>
+        <div *ngIf = "option.key=='syrup'">
+
+        </div>
+        <div *ngIf = "option.key=='topping'">
+
+        </div>
+        <div *ngIf = "option.key=='espresso'">
+
+        </div>
+        <div *ngIf = "option.key=='sweetness'">
+
+        </div>
+
+        <div *ngIf = "option.key=='flavor'">
+
+        </div>
+
+        <div *ngIf = "option.key=='sweetenerType'">
+
+        </div>
+
     </div>
 </div>
   

@@ -9,7 +9,7 @@
             "menuOptions": {
               "ice": {
                 "order": 0,
-                "sectionLabel": "",
+                "sectionLabel": "Ice",
                 "items": [
                   {
                     "id": 1,
