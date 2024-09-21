@@ -2,22 +2,30 @@
     <h1>Menu</h1>
 </div>
 <div class="categories-container">
-    <div class="category-item">
-        <div class="category-circle">
-            <img src="\assets\images\icons\boba-cup.svg" alt="Lattes">
+    <a [routerLink]="['/menu', 'lattes']">
+        <div class="category-item">
+            <div class="category-circle">
+                <img src="\assets\images\icons\boba-cup.svg" alt="Lattes">
+            </div>
+            <div class="category-label font-xlg">Lattes</div>
         </div>
-        <div class="category-label font-xlg">Lattes</div>
-    </div>
-    <div class="category-item">
-        <div class="category-circle">
-            <img src="\assets\images\icons\boba-cup.svg" alt="Lattes">
+    </a>
+
+    <a [routerLink]="['/menu', 'boba-tea']">
+        <div class="category-item">
+            <div class="category-circle">
+                <img src="\assets\images\icons\boba-cup.svg" alt="Boba Tea">
+            </div>
+            <div class="category-label font-xlg">Boba Tea</div>
         </div>
-        <div class="category-label font-xlg">Boba Tea</div>
-    </div>
-    <div class="category-item">
-        <div class="category-circle">
-            <img src="\assets\images\icons\boba-cup.svg" alt="Lattes">
+    </a>
+
+    <a [routerLink]="['/menu', 'hot-teas']">
+        <div class="category-item">
+            <div class="category-circle">
+                <img src="\assets\images\icons\boba-cup.svg" alt="Hot Teas">
+            </div>
+            <div class="category-label font-xlg">Hot Teas</div>
         </div>
-        <div class="category-label font-xlg">Hot Teas</div>
-    </div>
+    </a>
 </div>

@@ -1,101 +1,326 @@
 {
     "/menu/latte": {
-        "get": [
-            { "menuHeader": {
-                "title": "Latte",
-                "description" : "Latte description",
-                "img": "/path/regular_milk.img"
-              }
-            },
-            {
-                "dairy": [
-                    {
-                        "id": 1,
-                        "display_name": "Regular Milk",
-                        "value": "regular_milk",
-                        "calories": 100,
-                        "img": "/path/regular_milk.img"
-                    },
-                    {
-                        "id": 2,
-                        "display_name": "Almond Milk",
-                        "value": "almond_milk",
-                        "calories": 100,
-                        "img": "/path/regular_milk.img"
-                    },
-                    {
-                        "id": 3,
-                        "display_name": "Oatmilk",
-                        "value": "oatmilk",
-                        "calories": 100,
-                        "img": "/path/regular_milk.img"
-                    },
-                    {
-                        "id": 4,
-                        "display_name": "Coconut Milk",
-                        "value": "coconut_milk",
-                        "calories": 100,
-                        "img": "/path/regular_milk.img"
-                    }
+      "get": 
+        {
+          "menu": {
+            "title": "Latte",
+            "description": "Your choice of freshly brewed tea or milk served in a delightful cup with chewy tapioca pearls, fruity jellies, or popping boba, and topped with your favorite flavors, sweet syrups, or creamy foam.",
+            "img": "/path/latte.img",
+            "menuOptions": {
+              "ice": {
+                "order": 0,
+                "sectionLabel": "",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "Less",
+                    "value": "ice_less",
+                    "calories": null,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Regular",
+                    "value": "ice_regular",
+                    "calories": null,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Xtra",
+                    "value": "ice_xtra",
+                    "calories": null,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 2
+                  }
                 ]
-            },
-          {
-            "ice": [
-                    {              
-                        "id": 1,
-                        "display_name": "Less",
-                        "value": "less_ice"
-                    },
-                                                {
-                        "id": 2,
-                        "display_name": "Regular",
-                        "value": "regular_ice"
-                    },
-                                                {
-                        "id": 3,
-                        "display_name": "Xtra",
-                        "value": "xtra_ice"
-                    }
-            ]
-          },
-          {
-            "Size": [
-                                  {
-                        "id": 1,
-                        "display_name": "Small",
-                        "value": "size_sm"
-                    },
-                                                {
-                        "id": 2,
-                        "display_name": "Medium",
-                        "value": "size_md"
-                    },
-                                                {
-                        "id": 3,
-                        "display_name": "Large",
-                        "value": "size_lg"
-                    }
-            ]
-          },
-                    {
-            "Flavor": [
-                                  {
-                        "id": 1,
-                        "display_name": "Small",
-                        "value": "size_sm"
-                    },
-                                                {
-                        "id": 2,
-                        "display_name": "Medium",
-                        "value": "size_md"
-                    },
-                                                {
-                        "id": 3,
-                        "display_name": "Large",
-                        "value": "size_lg"
-                    }
-            ]
+              },
+              "size": {
+                "order": 1,
+                "sectionLabel": "Size",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "Small",
+                    "value": "size_sm",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Medium",
+                    "value": "size_md",
+                    "calories": null,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Large",
+                    "value": "size_lg",
+                    "calories": null,
+                    "price": null,
+                    "img": "null",
+                    "order": 0,
+                    "col": 2
+                  }
+                ]
+              },
+              "dairy": {
+                "order": 2,
+                "sectionLabel": "Choose Dairy",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "Regular Milk",
+                    "value": "dairy_regular_milk",
+                    "calories": 100,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Almond Milk",
+                    "value": "dairy_almond_milk",
+                    "calories": 100,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Coconut Milk",
+                    "value": "dairy_coconut_milk",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Oatmilk",
+                    "value": "dairy_oatmilk",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 1
+                  }
+                ]
+              },
+              "syrup": {
+                "order": 3,
+                "sectionLabel": "Flavor Syrup",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "Caramel",
+                    "value": "syrup_caramel",
+                    "calories": 100,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Vanilla",
+                    "value": "syrup_vanilla",
+                    "calories": 100,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Coconut Milk",
+                    "value": "syrup_mocha",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Oatmilk",
+                    "value": "syrup_oatmilk",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 1
+                  }
+                ]
+              },
+              "topping": {
+                "order": 4,
+                "sectionLabel": "",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "None",
+                    "value": "topping_none",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Whipped Cream",
+                    "value": "topping_whipped_cream",
+                    "calories": 100,
+                    "price": null,
+                    "img": "/path/regular_milk.img",
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Cold Foam",
+                    "value": "topping_cold_foam",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 1,
+                    "display_name": "Caramel Drizzle",
+                    "value": "topping_caramel_drizzle",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 1
+                  }
+                ]
+              },
+              "espresso": {
+                "order": 5,
+                "sectionLabel": "Espresso",
+                "items": [
+                  {
+                    "id": 1,
+                    "display_name": "Single",
+                    "value": "espresso_single",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 2,
+                    "display_name": "Double",
+                    "value": "espresso_double",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 3,
+                    "display_name": "Triple",
+                    "value": "espresso_triple",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 2,
+                    "col": 0
+                  }
+                ]
+              },
+              "sweetness": {
+                "order": 6,
+                "sectionLabel": "",
+                "items": [
+                  {
+                    "id": 3,
+                    "display_name": "0",
+                    "value": "espresso_zero",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 3,
+                    "display_name": "1",
+                    "value": "sweetness_one",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 3,
+                    "display_name": "2",
+                    "value": "sweetness_two",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 2
+                  },
+                  {
+                    "id": 3,
+                    "display_name": "3",
+                    "value": "sweetness_three",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 3
+                  },
+                  {
+                    "id": 3,
+                    "display_name": "4",
+                    "value": "sweetness_four",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 4
+                  }
+                ]
+              },
+              "flavor": {
+                "order": 7,
+                "sectionLabel": "",
+                "items": []
+              },
+              "sweetenerType": {
+                "order": 8,
+                "sectionLabel": "",
+                "items": []
+              }
+            }
           }
-        ]
+        }
     }
-}
+  }
