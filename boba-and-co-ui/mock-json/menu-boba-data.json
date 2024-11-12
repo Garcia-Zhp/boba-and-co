@@ -173,7 +173,7 @@
               },
               "topping": {
                 "order": 4,
-                "sectionLabel": "",
+                "sectionLabel": "Topping",
                 "items": [
                   {
                     "id": 1,
@@ -255,12 +255,12 @@
               },
               "sweetness": {
                 "order": 6,
-                "sectionLabel": "",
+                "sectionLabel": "Sweetness",
                 "items": [
                   {
                     "id": 3,
                     "display_name": "0",
-                    "value": "espresso_zero",
+                    "value": "sweetness_zero",
                     "calories": null,
                     "price": null,
                     "img": null,
@@ -311,13 +311,95 @@
               },
               "flavor": {
                 "order": 7,
-                "sectionLabel": "",
-                "items": []
+                "sectionLabel": "Flavor",
+                "items": [
+                  {
+                    "id": 7,
+                    "display_name": "Black",
+                    "value": "black_flavor",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 7,
+                    "display_name": "Taro",
+                    "value": "taro_flavor",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 0
+                  },
+                  {
+                    "id": 7,
+                    "display_name": "Brown Sugar",
+                    "value": "brown_sugar_flavor",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 1
+                  },
+                  {
+                    "id": 7,
+                    "display_name": "Matcha",
+                    "value": "matcha_flavor",
+                    "calories": 100,
+                    "price": null,
+                    "img": "null",
+                    "order": 1,
+                    "col": 1
+                  }
+                ]
               },
               "sweetenerType": {
                 "order": 8,
-                "sectionLabel": "",
-                "items": []
+                "sectionLabel": "Sweetener Type",
+                "items": [
+                  {
+                    "id": 8,
+                    "display_name": "none",
+                    "value": "no_sugar",
+                    "calories": null,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 0
+                  },
+                  {
+                    "id": 8,
+                    "display_name": "sugar",
+                    "value": "sugar_sweetener",
+                    "calories": 100,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 1
+                  },
+                  {
+                    "id": 8,
+                    "display_name": "honey",
+                    "value": "honey_sweetener",
+                    "calories": 10,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 2
+                  },
+                  {
+                    "id": 8,
+                    "display_name": "stevia",
+                    "value": "stevia_sweetener",
+                    "calories": 0,
+                    "price": null,
+                    "img": null,
+                    "order": 0,
+                    "col": 3
+                  }
+                ]
               }
             }
           }
